@@ -5,7 +5,7 @@ require('dotenv').config();
 const config = require('config');
 
 //const db = config.get('mongoURI');
-const uri = process.env.mongoURI;
+const uri = process.env.MONGODB_URI;
 
 
 const connectDB = async () => {
