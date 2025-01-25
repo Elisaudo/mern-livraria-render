@@ -24,7 +24,7 @@ const CreateBook = (props) => {
     e.preventDefault();
 
     axios
-      .post('https://mern-livraria-server-render.onrender.com:8082/api/books', book)
+      .post('https://mern-livraria-server-render.onrender.com/api/books', book)
       .then((res) => {
         setBook({
           title: '',
